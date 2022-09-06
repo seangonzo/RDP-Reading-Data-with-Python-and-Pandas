@@ -9,7 +9,7 @@ movies = pd.read_csv('C:\\Users\\Sean\\Documents\\GitHub\\RDP-Reading-Data-with-
                      header=None,
                      names=column_names,
                      sep='|',
-                     na_values=['','?','-'],
+                    #  na_values=['','?','-'],
                      skiprows=3)
 
 
